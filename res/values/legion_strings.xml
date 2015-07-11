@@ -218,4 +218,6 @@
     <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
     <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
 
+    <string name="legion_extras_volumesteps_title">Volume Steps</string>
+
 </resources>

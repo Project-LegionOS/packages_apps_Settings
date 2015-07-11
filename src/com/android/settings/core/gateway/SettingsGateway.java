@@ -163,6 +163,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.legion.settings.LegionSettings;
 import com.legion.settings.fragments.GlobalActionsSettings;
+import com.legion.settings.fragments.VolumeStepsFragment;
 
 public class SettingsGateway {
 
@@ -314,7 +315,8 @@ public class SettingsGateway {
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
             LegionSettings.class.getName(),
-            GlobalActionsSettings.class.getName()
+            GlobalActionsSettings.class.getName(),
+            VolumeStepsFragment.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -356,5 +358,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.LegionSettingsActivity.class.getName(),
             Settings.GlobalActionsSettingsActivity.class.getName(),
+            Settings.VolumeStepsFragmentActivity.class.getName(),
     };
             }

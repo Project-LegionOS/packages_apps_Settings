@@ -66,6 +66,11 @@
             android:key="security_settings_face_enroll_faces_container"
             app:keywords="@string/keywords_face_unlock"/>
 
+        <com.legion.settings.preferences.SystemSettingSwitchPreference
+            android:key="security_settings_face_require_swipe"
+            android:title="@string/security_settings_face_require_swipe"
+            android:summary="@string/security_settings_face_require_swipe_summary"
+            settings:controller="com.android.settings.biometrics.face.FaceSettingsSwipePreferenceController" />
     </PreferenceCategory>
 
     <PreferenceCategory

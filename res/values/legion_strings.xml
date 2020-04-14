@@ -247,4 +247,7 @@
     <string name="face_redo_confirm_btn">Redo</string>
     <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
 
+    <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
+    <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
+
 </resources>

@@ -13,14 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<ripple 
-      xmlns:android="http://schemas.android.com/apk/res/android" 
-      android:color="#59000000">
-<item>
-<shape android:shape="rectangle">
-<corners android:radius="25.0dip" />
-<solid android:color="#fff3f3f3" /> 
-</shape>
-</item>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="?android:attr/colorControlHighlight">
+    <item android:drawable="@color/search_bar_background"/>
 </ripple>

@@ -58,12 +58,6 @@
     <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
 
-
-    <string name="update_settings_title">LegionOS Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string> 
-    <string name="update_package" translatable="false">com.legion.updater</string> 
-    <string name="update_activity" translatable="false">com.legion.updater.UpdatesActivity</string>
-
     <string name="smart_charging_title">Smart Charging</string>
     <string name="smart_charging_summary">Set maximum charging level</string>
     <string name="smart_charging_switch_title">Use Smart charging</string>
@@ -124,6 +118,7 @@
     <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
     <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
 
+
     <!-- Battery health -->
     <string name="battery_health_title">Battery health</string>
     <string name="battery_health_summary">Monitor the battery health of your device</string>
@@ -132,4 +127,20 @@
     <string name="designed_battery_capacity">Designed battery capacity</string>
     <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
     <string name="battery_charge_cycles">Charge Cycles Completed</string>
+
+    <string name="apps_category">Apps</string>
+    <string name="volume_key_category_title">Volume Shortcut</string>
+    <string name="connected_devices_category_title">Connected Devices</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+
+
 </resources>

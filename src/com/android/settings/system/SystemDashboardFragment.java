@@ -31,10 +31,7 @@ import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
-import com.android.settings.deviceinfo.UpdatePreferenceController;
-import com.android.settingslib.core.AbstractPreferenceController;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -100,16 +97,6 @@ public class SystemDashboardFragment extends DashboardFragment {
             }
         }
         return visibleCount;
-    }
-
-    protected List<AbstractPreferenceController> getPreferenceControllers(Context context) {
-        return buildPreferenceControllers(context);
-    }
-
-    private static List<AbstractPreferenceController> buildPreferenceControllers(Context context) {
-        final List<AbstractPreferenceController> controllers = new ArrayList<>();
-        controllers.add(new UpdatePreferenceController(context));
-        return controllers;
     }
 
     /**

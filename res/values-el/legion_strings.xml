@@ -169,21 +169,19 @@
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Εμφάνιση τελειών μοτίβου</string>
 
-    <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Προσαρμοσμένη αναπαραγωγή</string>
-    <string name="adaptive_playback_disabled_summary">Κλειστή</string>
-    <string name="adaptive_playback_timeout_title">Χρήση χρόνου λήξης</string>
-    <string name="adaptive_playback_timeout_none">Χωρίς χρόνο λήξης</string>
-    <string name="adaptive_playback_timeout_none_summary">Ενεργή (χωρίς χρόνο λήξης)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 δευτερ.</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">Ενεργή (30 δευτερ.)</string>
-    <string name="adaptive_playback_timeout_1_min">1 λεπτό</string>
-    <string name="adaptive_playback_timeout_1_min_summary">Ενεργή (1 λεπτό)</string>
-    <string name="adaptive_playback_timeout_2_min">2 λεπτά</string>
-    <string name="adaptive_playback_timeout_2_min_summary">Ενεργή (2 λεπτά)</string>
-    <string name="adaptive_playback_timeout_5_min">5 λεπτά</string>
-    <string name="adaptive_playback_timeout_5_min_summary">Ενεργή (5 λεπτά)</string>
-    <string name="adaptive_playback_timeout_10_min">10 λεπτά</string>
-    <string name="adaptive_playback_timeout_10_min_summary">Ενεργή (10 λεπτά)</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Τριμάρισμα DC</string>
+    <string name="dc_dimming_info">Μειώνει την καταπόνηση των ματιών σε συνθήκες χαμηλού φωτισμού αλλά μπορεί να οδηγήσει σε μειωμένη ποιότητα εικόνας και κακή παραγωγή χρώματος.</string>
+    <string name="dc_dimming_auto_mode_title">Πρόγραμμα</string>
+    <string name="dc_dimming_mode_brightness">Ενεργοποιήστε όταν η φωτεινότητα είναι κάτω από το όριο</string>
+    <string name="dc_dimming_mode_full">Εξαρτάται από το χρόνο και τη φωτεινότητα</string>
+    <string name="dc_dimming_brightness_title">Όριο φωτεινότητας</string>
+    <string name="dc_dimming_brightness_disabled">Ανενεργό</string>
+    <string name="dc_dimming_restore_auto_mode">Επαναφορά αυτόματης λειτουργίας</string>
+    <string name="dc_dimming_brightness_info">Ενεργοποιήστε το τριμάρισμα DC μόνο όταν η μέση φωτεινότητα είναι κάτω από το όριο</string>
+    <string name="dc_dimming_off_auto_mode_auto">Θα ενεργοποιηθεί αυτόματα</string>
+    <string name="dc_dimming_on_auto_mode_auto">Θα απενεργοποιηθεί αυτόματα</string>
+
+    <string name="legion_extras_volumesteps_title">Βήματα έντασης</string>
 
 </resources>

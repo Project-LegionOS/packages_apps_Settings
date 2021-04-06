@@ -133,7 +133,7 @@
     <string name="selinux_status_enforcing">Επιβάλεται</string>
 
     <!-- Legion Device Info -->
-    <string name="legion_device_owner_name">Κάτοχος συσκευής</string>
+    <string name="legion_device_owner_name">Ονομασία συσκευής</string>
     <string name="legion_device_name">Όνομα συσκευής</string>
     <string name="legion_chipset_type">Επεξεργαστής</string>
     <string name="legion_gpu">Κάρτα γραφικών</string>
@@ -197,5 +197,25 @@
     <string name="dc_dimming_off_auto_mode_auto">Θα ενεργοποιηθεί αυτόματα</string>
     <string name="dc_dimming_on_auto_mode_auto">Θα απενεργοποιηθεί αυτόματα</string>
     <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
+	    
+    <!-- App Lock -->
+    <string name="applock_title">Κλείδωμα εφαρμογών</string>
+    <string name="applock_locked">Κλειδωμένη</string>
+    <string name="applock_unlocked">Ξεκλείδωτη</string>
+    <string name="applock_locked_apps">Κλειδωμένες εφαρμογές</string>
+    <string name="applock_unlocked_apps">Ξεκλείδωτες εφαρμογές</string>
+    <string name="applock_show_only_on_wake">Αυθεντικοποίηση μία φορά</string>
+    <string name="applock_show_only_on_wake_on_summary">Μόλις γίνει η αυθεντικοποίηση, η εφαρμογή μένει ξεκλείδωτη μέχρι να σβήσει η οθόνη</string>
+    <string name="applock_show_only_on_wake_off_summary">>Μόλις γίνει η αυθεντικοποίηση, η εφαρμογή μένει ξεκλείδωτη για 15 δευτερ. μετά την καταχώριση</string>
+    <string name="applock_notification_info">Μπορείτε να εμφανίσετε/αποκρύψετε το περιεχόμενο ειδοποιήσεων για κάθε εφαρμογή, πατώντας στο εικονίδιο που εμφανίζεται στις κλειδωμένες εφαρμογές\' επιλογές</string>
+    <string name="applock_show_notif">Εμφάνιση περιεχόμενου ειδοποιήσεων</string>
+    <string name="applock_hide_notif">Απόκρυψη περιεχόμενου ειδοποιήσεων</string>
+    <string name="applock_setup">Ρύθμιση κλειδώματος εφαρμογών</string>
+    <string name="applock_overlay_summary">Αυτή η λειτουργία δεν είναι διαθέσιμη, γιατί η εφαρμογή είναι κλειδωμένη</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 εφαρμογή κλειδώθηκε</item>
+        <item quantity="other">%d εφαρμογές κλειδώθηκαν</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
 
 </resources>

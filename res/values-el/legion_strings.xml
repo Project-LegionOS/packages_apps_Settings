@@ -198,12 +198,31 @@
     <string name="dc_dimming_on_auto_mode_auto">Θα απενεργοποιηθεί αυτόματα</string>
     <string name="keywords_display_dc_dimming">τριμάρισμα οθόνης, τρεμόπαιγμα, μάτι, ένταση</string>
 	    
+    <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">Κύλιση προς τα πάνω για ξεκλείδωμα</string>
+    <string name="security_settings_face_require_swipe_summary">Κύλιση προς τα πάνω σε κλειδωμένη οθόνη, για ξεκελείδωμα με ανίχνευση προσώπου</string>
+	    
+    <!-- Face UnLock -->    
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Διαγράψτε την υπάρχουσα καταχώρηση προσώπου, και δημιουργήστε μία νέα</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Επανάληψη ανίχνευσης προσώπου</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Κλείδωμα οθόνης, αποτύπωμα, ξεκλείδωμα προσώπου</string>
+    <string name="face_redo_confirm_btn">Επανάληψη</string>
+    <string name="face_redo_warning_msg">Θέλετε να διαγράψετε την υπάρχουσα καταχώριση προσώπου και να δημιουργήσετε μία νέα?</string>
+	    
     <!-- App Lock -->
     <string name="applock_title">Κλείδωμα εφαρμογών</string>
     <string name="applock_locked">Κλειδωμένη</string>
     <string name="applock_unlocked">Ξεκλείδωτη</string>
     <string name="applock_locked_apps">Κλειδωμένες εφαρμογές</string>
     <string name="applock_unlocked_apps">Ξεκλείδωτες εφαρμογές</string>
+    <string name="applock_lock_after_title">Κλείδωμα μετά από</string>
+    <string name="applock_lock_after_instantly">Άμεσα</string>
+    <string name="applock_lock_after_15_seconds">15 δευτερ.</string>
+    <string name="applock_lock_after_screen_off">Σβήσιμο οθόνης</string>
+    <string name="applock_lock_after_summary">Η εφαρμογή θα κλειδωθεί μετά από την λήξη του επιλεγμένου χρόνου</string>
+    <string name="applock_lock_after_instantly_summary">Η εφαρμογή θα κλειδωθεί άμεσα μόλις κλείσει</string>
+    <string name="applock_lock_after_15_seconds_summary">Η εφαρμογή θα κλειδωθεί σε 15 δευτερ. μετά το κλείσιμο</string>
+    <string name="applock_lock_after_screen_off_summary">Η εφαρμογή θα κλειδωθεί σε 15 δευτερ. μετά το σβήσιμο της οθόνης</string>
     <string name="applock_show_only_on_wake">Αυθεντικοποίηση μία φορά</string>
     <string name="applock_show_only_on_wake_on_summary">Μόλις γίνει η αυθεντικοποίηση, η εφαρμογή μένει ξεκλείδωτη μέχρι να σβήσει η οθόνη</string>
     <string name="applock_show_only_on_wake_off_summary">Μόλις γίνει η αυθεντικοποίηση, η εφαρμογή μένει ξεκλείδωτη για 15 δευτερ. μετά την καταχώριση</string>
@@ -217,14 +236,11 @@
         <item quantity="other">%d εφαρμογές κλειδώθηκαν</item>
     </plurals>
     <string name="keywords_applock_settings">κλείδωμα εφαρμογής, κλείδωμα, κλείδωμα εφαρμογών, εφαρμογές κλείδωμα</string>
-
-     <!-- Face UnLock -->    
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Διαγράψτε την υπάρχουσα καταχώρηση προσώπου, και δημιουργήστε μία νέα</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Επανάληψη ανίχνευσης προσώπου</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Κλείδωμα οθόνης, αποτύπωμα, ξεκλείδωμα προσώπου</string>
-    <string name="face_redo_confirm_btn">Επανάληψη</string>
-    <string name="face_redo_warning_msg">Θέλετε να διαγράψετε την υπάρχουσα καταχώριση προσώπου και να δημιουργήσετε μία νέα?</string>
-    <string name="security_settings_face_require_swipe">Κύλιση προς τα πάνω για ξεκλείδωμα</string>
-    <string name="security_settings_face_require_swipe_summary">Κύλιση προς τα πάνω σε κλειδωμένη οθόνη, για ξεκελείδωμα με ανίχνευση προσώπου</string>
+	    
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Ελάχιστος ρυθμός ανανέωσης οθόνης</string>
+    <string name="max_refresh_rate_title">Μέγιστος ρυθμός ανανέωσης οθόνης</string>
+    <string name="battery_saver_refresh_rate_title">Προσαρμογή χρόνου ανανέωσης</string>
+    <string name="battery_saver_refresh_rate_summary">Χρήση 60 Hz ρυθμού ανανέωσης οθόνης για εξοικονόμηση ενέργειας όταν είναι ενεργή.</string>    
 
 </resources>

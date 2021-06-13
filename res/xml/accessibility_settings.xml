@@ -50,6 +50,7 @@
 
         <Preference
             android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
+            android:icon="@drawable/ic_font_size"
             android:key="font_size_preference_screen"
             android:persistent="false"
             android:title="@string/title_font_size"
@@ -58,6 +59,7 @@
 
      <com.android.settings.display.ScreenZoomPreference
             android:fragment="com.android.settings.display.ScreenZoomSettings"
+            android:icon="@drawable/ic_screen_zoom"
             android:key="accessibility_settings_screen_zoom"
             android:persistent="false"
             android:title="@string/screen_zoom_title"
@@ -65,6 +67,7 @@
 
        <SwitchPreference
             android:key="dark_ui_mode_accessibility"
+            android:icon="@drawable/ic_dark_theme"
             android:persistent="false"
             android:title="@string/dark_ui_mode"
             settings:controller="com.android.settings.display.DarkUIPreferenceController"

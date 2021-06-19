@@ -295,6 +295,16 @@
     <!-- Navbar radius -->
     <string name="navbar_radius">Ακτίνα μπάρας χειρονομιών</string>
     <string name="small_label">1 dp</string>
-    <string name="big_label">4 dp</string>    
+    <string name="big_label">4 dp</string>
+    
+    <!-- Missing auto_translation_strings -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Θέματα</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">Βασικό χρώμα</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Κεφαλίδα / Φόντο σώματος</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Σχήμα εικονιδίου</string>
 
 </resources>
